@@ -7,7 +7,7 @@
 from typing import List, Tuple
 
 
-def get_solution(input_lines: List[str]) -> Tuple[int, int]:
+def get_solution(input_lines: List[str]) -> List[Tuple[int, int]]:
 
     elves = {}
     counter = 0
