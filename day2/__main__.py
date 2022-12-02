@@ -15,3 +15,10 @@ def main():
     print('Puzzle A solution:')
     print(f'\t-> Game finished with {a_solution} points')
     print()
+    print('Puzzle B solution:')
+    b_solution = b.get_solution(input_lines)
+    print(f'\t-> Game finished with {b_solution} points')
+
+
+if __name__ == '__main__':
+    main()
