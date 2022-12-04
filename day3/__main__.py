@@ -16,9 +16,9 @@ def main():
     print('Puzzle A solution:')
     print(f'\t-> Common items priority sum: {a_solution}')
     print()
-    # print('Puzzle B solution:')
-    # b_solution = b.get_solution(input_lines)
-    # print(f'\t-> Game finished with {b_solution} points')
+    print('Puzzle B solution:')
+    b_solution = b.get_solution(input_lines, char_priorities)
+    print(f'\t-> Group items priority sum: {b_solution}')
 
 
 if __name__ == '__main__':
