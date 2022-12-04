@@ -4,7 +4,7 @@
 #
 
 
-from typing import Dict, List, Tuple
+from typing import List, Tuple
 
 from day4.common import load_pair_from_line
 
