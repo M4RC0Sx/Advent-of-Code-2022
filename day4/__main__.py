@@ -14,10 +14,10 @@ def main():
     a_solution = a.get_solution(input_lines)
     print('Puzzle A solution:')
     print(f'\t-> Pairs in one range fully contains each: {a_solution}')
-    # print()
-    # print('Puzzle B solution:')
-    # b_solution = b.get_solution(input_lines, char_priorities)
-    # print(f'\t-> Group items priority sum: {b_solution}')
+    print()
+    print('Puzzle B solution:')
+    b_solution = b.get_solution(input_lines)
+    print(f'\t-> Pairs that overlap: {b_solution}')
 
 
 if __name__ == '__main__':
